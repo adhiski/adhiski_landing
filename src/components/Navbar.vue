@@ -7,7 +7,7 @@
     'items-center',
     'w-full',
     'px-[25px]',
-    'py-[45px]',
+    'py-[45px] max-md:py-[25px]',
     'bg-accent',
     'shadow-2xl',
     'shadow-accent'
@@ -61,7 +61,7 @@
       'ease-in',
       'overflow-clip',
       'w-full',
-      isOpen ? 'h-fit max-h-[10000px] pt-[45px]' : 'h-0 max-h-0 py-0',
+      isOpen ? 'h-fit max-h-[10000px] pt-[25px]' : 'h-0 max-h-0 pt-0',
       'md:hidden',
       'flex',
       'flex-col',

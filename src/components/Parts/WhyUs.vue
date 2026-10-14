@@ -28,7 +28,7 @@
         </div>  
         <div :class="TWMerge(
             'grid',
-            'grid-cols-2',
+            'grid-cols-2 max-sm:grid-cols-1',
             'gap-[25px]'
         )">
             <div v-for="data in core" :class="TWMerge(

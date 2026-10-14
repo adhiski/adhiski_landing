@@ -1,6 +1,6 @@
 <template>
   <div id="contact" :class="TWMerge(
-    'scroll-m-[125px]',
+    'scroll-m-[125px] max-md:scroll-m-[90px]',
     'flex',
     'w-full',
     'items-center',

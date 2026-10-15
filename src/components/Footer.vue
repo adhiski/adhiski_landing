@@ -84,7 +84,7 @@
                 'gap-[15px]',
                 'text-[14px]'
             )">
-                <span>Social Media</span>
+                <span>Contact</span>
                 <a :href="`mailto:${email}`" :class="TWMerge(
                     'opacity-50',
                     'hover:underline',
